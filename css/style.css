@@ -2114,9 +2114,8 @@ span.error {
   background-color: #222;
   color: white;
   cursor: pointer;
-  padding: 10px;
-  border-radius: 4px;
-  transition: background-color 0.3s ease-in-out;
+  padding: 18px 10px;
+  border-radius: 8px;
 }
 
 #backToTopBtn:hover {
