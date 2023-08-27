@@ -2101,3 +2101,24 @@ span.error {
 .gsap-reveal-img .reveal-wrap .reveal-content .portfolio-item-content h3 {
   margin-bottom: 10px;
 }
+
+#backToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #222;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#backToTopBtn:hover {
+  background-color: #222;
+}
