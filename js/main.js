@@ -521,9 +521,9 @@ var contactForm = function() {
 				}
 			},
 			messages: {
-				name: "Please enter your name",
-				email: "Please enter a valid email address",
-				message: "Please enter a message"
+				name: "Por favor, insira seu nome",
+				email: "Por favor, insira um email válido",
+				message: "Por favor, insira uma mensagem"
 			},
 			errorElement: 'span',
 			errorLabelContainer: '.form-error',
