@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Arimo:400|Raleway:300,400,700&display=swap");
-body {
+
+* {
   font-family: "Raleway", sans-serif;
+}
+
+body {
   color: #fff;
   font-size: 16px;
   line-height: 30px;
@@ -45,6 +49,17 @@ body, .unslate_co--site-inner {
 ::selection {
   background: #000;
   color: #fff;
+}
+
+.alert {
+  background-color: rgb(243, 212, 75);
+  color: #000;
+  font-weight: 900;
+}
+
+.alert a {
+  color: #000;
+  text-decoration: underline !important;
 }
 
 a {
