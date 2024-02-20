@@ -664,3 +664,17 @@ window.onscroll = function() {
 		document.getElementById("backToTopBtn").style.display = "none";
 	}
 };
+
+var closeButtonClicked = localStorage.getItem('closeButtonClicked');
+
+if (!closeButtonClicked) {
+	document.getElementById("closeButton").addEventListener("click", function() {
+	var alertBox = document.getElementById("alertBox");
+	alertBox.parentNode.removeChild(alertBox);
+	
+	localStorage.setItem('closeButtonClicked', true);
+	});
+} else {
+    var alertBox = document.getElementById("alertBox");
+    alertBox.style.display = 'none';
+}
